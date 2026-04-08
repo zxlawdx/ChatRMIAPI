@@ -1,3 +1,27 @@
 spring:
-    application:
-            name: ChatAPI
+  application:
+    name: ChatAPI
+
+server:
+  port: 8080
+
+app:
+  jwt:
+    secret: O0f4nblX3aHlFC/GOrzrjTiXmoGnjK35iMKV1kuBbic=
+    expiration-ms: 86400000   # 24 horas
+
+  rmi:
+    host: localhost
+    port: 1099
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.hibernate: WARN
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true

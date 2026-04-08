@@ -1,4 +1,4 @@
-package io.github.zxlawdx.chatrmi;
+package chatrmi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
